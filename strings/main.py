@@ -15,7 +15,7 @@ report = Player_1 + " scored in the " + str(goal_0) + "nd minute" + f"\n{Player_
 
 print(report)
 player = "Ruud Gullit"
-first_name = player[player.find("Ruud",0, 4): 4]
+first_name = player[player.find("R",0, 4): 4]
 # print(first_name)
 last_name_len = len(player[player.find("G"):])
 name_short = first_name[0] + ". " + player[player.find("G"):]
